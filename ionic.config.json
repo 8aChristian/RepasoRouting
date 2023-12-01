@@ -1,0 +1,7 @@
+{
+  "name": "RepasoRouting",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
