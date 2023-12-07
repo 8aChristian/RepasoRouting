@@ -12,7 +12,7 @@ const routes: Routes = [
         loadChildren: () => import("./inicio/inicio.module").then(vista => vista.InicioPageModule)
       },
       {//instaciar pagina hija inudo
-        path: "nudo",
+        path:"nudo/:id", // recibir un id
         loadChildren: () => import("./nudo/nudo.module").then(vista => vista.NudoPageModule)
       },
       {//instaciar pagina hija desenlace
